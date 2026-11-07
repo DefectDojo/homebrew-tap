@@ -1,28 +1,28 @@
-# Generated from the v0.4.0 release's checksums.txt.
+# Generated from the v0.5.0 release's checksums.txt.
 class Earlylight < Formula
   desc "Detect emerging vulnerabilities in hosts, container images and repositories"
   homepage "https://github.com/DefectDojo/earlylight"
-  version "0.4.0"
+  version "0.5.0"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/DefectDojo/earlylight/releases/download/v0.4.0/earlylight_v0.4.0_darwin_arm64"
-      sha256 "a60abc1cd4949f850635a7b240f14ee032ddcc4acdef52b49783ee8125e53727"
+      url "https://github.com/DefectDojo/earlylight/releases/download/v0.5.0/earlylight_v0.5.0_darwin_arm64"
+      sha256 "e160838634dda96029d60c2bbd0c5f775d67001bf32627dba59a0f4d063c55c5"
     end
     on_intel do
-      url "https://github.com/DefectDojo/earlylight/releases/download/v0.4.0/earlylight_v0.4.0_darwin_amd64"
-      sha256 "8aabe5dd412af0e4e1eda0a652420d2096b6d352593f1f77499a628d73f72e8e"
+      url "https://github.com/DefectDojo/earlylight/releases/download/v0.5.0/earlylight_v0.5.0_darwin_amd64"
+      sha256 "5c132128f20a8984599d6e3637b14991514f43c772bbfebf0a8e0e64a788ff42"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/DefectDojo/earlylight/releases/download/v0.4.0/earlylight_v0.4.0_linux_arm64"
-      sha256 "f8707f413020ddc5b4bddd205c416fabfd99c83a99ce21d599d19ac2c422da8e"
+      url "https://github.com/DefectDojo/earlylight/releases/download/v0.5.0/earlylight_v0.5.0_linux_arm64"
+      sha256 "a488ddb71d4972ae2bfda7fff0a5b4eda94990abeeae87cdbf791d3ebebaf489"
     end
     on_intel do
-      url "https://github.com/DefectDojo/earlylight/releases/download/v0.4.0/earlylight_v0.4.0_linux_amd64"
-      sha256 "a0e740899d7484f0fcee43b756b3373913f569ba8998355deaf51f3e29018cb8"
+      url "https://github.com/DefectDojo/earlylight/releases/download/v0.5.0/earlylight_v0.5.0_linux_amd64"
+      sha256 "8e9029869931d0c103e752cc6de376ebd28b319011a125085ed6b5e9d3f433c9"
     end
   end
 
